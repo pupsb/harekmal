@@ -50,6 +50,7 @@ const ImgContainer = styled.div`
   flex: 1;`;
 
 const Image = styled.img`
+  margin: 0px 100px;
   height: 90%;
 
 `;

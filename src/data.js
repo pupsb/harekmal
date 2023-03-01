@@ -21,3 +21,21 @@ export const slideritems = [
 		bg: "fbf0f4",
 	},
 ];
+
+export const categories = [
+	{
+		id: 1,
+		img: "https://images.pexels.com/photos/3765976/pexels-photo-3765976.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "SHIRT STYLE!",
+	},
+	{
+		id: 2,
+		img: "https://images.pexels.com/photos/7162016/pexels-photo-7162016.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "LOUNGEWEAR LOVE",
+	},
+	{
+		id: 3,
+		img: "https://images.pexels.com/photos/7179057/pexels-photo-7179057.jpeg?auto=compress&cs=tinysrgb&w=600",
+		title: "LIGHT JACKETS",
+	},
+];
