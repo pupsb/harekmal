@@ -19,13 +19,13 @@ const FilterText = styled.span`
   font-weight: 600;
   margin-right: 20px;`
 
-const select = styled.select`
+const Select = styled.select`
   padding: 10px;
   margin-right: 20px;
   border: 1px solid teal;
   border-radius: 5px;
   outline: none;`
-const option = styled.option`
+const Option = styled.option`
   padding: 20px;
   border: 1px solid teal;
   border-radius: 5px;
@@ -51,37 +51,37 @@ const ProductList = () => {
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
-          <select>
-            <option disabled selected>
+          <Select>
+            <Option disabled selected>
               Color
-            </option>
-            <option>White</option>
-            <option>Black</option>
-            <option>Red</option>
-            <option>Blue</option>
-            <option>Yellow</option>
-            <option>Green</option>
-          </select>
-          <select>
-            <option disabled selected>
+            </Option>
+            <Option>White</Option>
+            <Option>Black</Option>
+            <Option>Red</Option>
+            <Option>Blue</Option>
+            <Option>Yellow</Option>
+            <Option>Green</Option>
+          </Select>
+          <Select>
+            <Option disabled selected>
               Size
-            </option>
-            <option>XS</option>
-            <option>S</option>
-            <option>M</option>
-            <option>L</option>
-            <option>XL</option>
-          </select>
+            </Option>
+            <Option>XS</Option>
+            <Option>S</Option>
+            <Option>M</Option>
+            <Option>L</Option>
+            <Option>XL</Option>
+          </Select>
         </Filter>
         <Filter>
           <FilterText>Sort Products:</FilterText>
-          <select>
-            <option disabled selected>
+          <Select>
+            <Option disabled selected>
               Newest
-            </option>
-            <option>Price (asc)</option>
-            <option>Price (desc)</option>
-          </select>
+            </Option>
+            <Option>Price (asc)</Option>
+            <Option>Price (desc)</Option>
+          </Select>
         </Filter>
       </FilterContainer>
       <Products />
