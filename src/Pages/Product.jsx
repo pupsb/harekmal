@@ -4,13 +4,15 @@ import Announcement from "../Components/Announcement"
 import Footer from "../Components/Footer"
 import Navbar from "../Components/Navbar"
 import Newsletter from "../Components/Newsletter"
+import { mobile } from "../responsive"
 
 
 const Container = styled.div``
 
 const Wrapper = styled.div`
   padding: 50px;
-  display: flex;`
+  display: flex;
+  ${mobile({ padding: "10px", flexDirection: "column" })}`
 
 const ImgContainer = styled.div`
   flex: 1;`
@@ -82,6 +84,9 @@ const AddContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    }
   `
 
 const AmountContainer = styled.div`
